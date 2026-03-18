@@ -1,0 +1,18 @@
+pipeline:
+  name: Posts Semanais Concierge.IA
+  description: Pipeline para gerar 3 posts semanais no Instagram @concierge.ia
+  steps:
+    - steps/step-01-pesquisadora.md
+    - steps/step-02-checkpoint.md
+    - steps/step-03-estrategista.md
+    - steps/step-04-checkpoint.md
+    - steps/step-05-redatora.md
+    - steps/step-06-checkpoint.md
+    - steps/step-07-designer.md
+    - steps/step-08-checkpoint.md
+    - steps/step-09-publicadora.md
+  checkpoints:
+    - steps/step-02-checkpoint.md
+    - steps/step-04-checkpoint.md
+    - steps/step-06-checkpoint.md
+    - steps/step-08-checkpoint.md
