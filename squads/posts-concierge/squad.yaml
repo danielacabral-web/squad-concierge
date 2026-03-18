@@ -1,0 +1,33 @@
+squad:
+  code: posts-concierge
+  name: Posts Concierge.IA
+  description: >
+    Gera 3 posts semanais para o Instagram @concierge.ia.
+    Analisa métricas via Reportei, cria calendário editorial,
+    escreve as copys, produz os designs, edita os Reels e programa as publicações.
+  icon: 📱
+  version: "1.1.0"
+  created_at: "2026-03-18"
+
+skills:
+  - web_search
+  - web_fetch
+  - image-creator
+  - instagram-publisher
+
+data:
+  - pipeline/data/tone-of-voice.md
+
+pipeline:
+  steps:
+    - step-01-pesquisadora.md
+    - step-02-checkpoint.md
+    - step-03-estrategista.md
+    - step-04-checkpoint.md
+    - step-05-redatora.md
+    - step-06-checkpoint.md
+    - step-07-designer.md
+    - step-08-checkpoint.md
+    - step-09-publicadora.md
+    - step-10-video-editing.md
+    - step-11-checkpoint.md
