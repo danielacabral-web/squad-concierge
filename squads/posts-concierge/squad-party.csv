@@ -1,0 +1,6 @@
+path,displayName,icon,role
+./agents/pesquisadora.agent.md,Ana Analítica,📊,Pesquisadora de Métricas e Tendências
+./agents/estrategista.agent.md,Estela Estratégica,🗓️,Estrategista Editorial
+./agents/redatora.agent.md,Clara Criativa,✍️,Redatora de Conteúdo
+./agents/designer.agent.md,Diana Design,🎨,Designer Visual
+./agents/publicadora.agent.md,Paula Publicadora,📱,Publicadora de Posts
