@@ -1,0 +1,34 @@
+*.tgz
+
+# Dependencies
+node_modules/
+dashboard/node_modules/
+
+# Environment variables (credentials)
+.env
+
+# Browser profile (login sessions)
+_opensquad/_browser_profile/
+
+# Build artifacts
+dist/
+.next/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Squad output (generated content — not versioned)
+squads/*/output/
+
+# Squad run state
+squads/*/state.json
+squads/*/_memory/
+
+# Opensquad run logs
+_opensquad/logs/
+
