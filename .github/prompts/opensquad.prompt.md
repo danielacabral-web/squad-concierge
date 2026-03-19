@@ -56,6 +56,19 @@ What would you like to do?
 4. More options
 ```
 
+If the user replies `3` (My squads):
+- List all directories inside `squads/` (each directory is a squad)
+- For each squad, read `squads/<name>/squad.yaml` and display the squad name and description
+- Then present a numbered sub-menu:
+  ```
+  1. Run a squad
+  2. View past runs
+  3. Edit a squad
+  4. Delete a squad
+  5. Back to main menu
+  ```
+- Route the user's choice to the corresponding action (run, runs, edit, delete, or back)
+
 If the user replies `4`:
 
 ```
@@ -91,6 +104,8 @@ When the user provides a command directly, route without showing a menu first:
 | `/opensquad install <name>` | Install a skill from the catalog |
 | `/opensquad uninstall <name>` | Remove an installed skill |
 | `/opensquad delete <name>` | Confirm with user, then delete squad directory |
+| `/opensquad dashboard <name>` | Generate a static dashboard for the squad in `squads/<name>/dashboard/` |
+| `/opensquad runs <name>` | List past pipeline runs for the squad from `squads/<name>/output/` |
 | `/opensquad edit-company` | Re-run company profile setup |
 | `/opensquad show-company` | Display current `company.md` |
 | `/opensquad settings` | Show and offer to edit `preferences.md` |
@@ -152,6 +167,49 @@ When the user selects Skills or types `/opensquad skills`:
    ```
 3. Follow the corresponding operation from the skills engine instructions
 
+## Dashboard
+
+When the user types `/opensquad dashboard <name>` or selects dashboard from the menu:
+
+1. Confirm the squad exists by checking `squads/<name>/squad.yaml`
+   - If not found → inform the user: "Squad '<name>' not found. Use `/opensquad list` to see available squads."
+2. Read `squads/<name>/squad-party.csv` to get the agent list and desk positions
+3. Read `squads/<name>/squad.yaml` for squad metadata
+4. Copy the contents of `dashboard/` into `squads/<name>/dashboard/` using Bash:
+   ```bash
+   cp -r dashboard/. squads/<name>/dashboard/
+   ```
+5. Inform the user how to launch it:
+   ```
+   ✅ Dashboard generated for squad '<name>'!
+
+   To launch it, run in your terminal:
+     npx serve squads/<name>/dashboard
+
+   Then open http://localhost:3000 in your browser.
+   ```
+
+## Past Runs
+
+When the user types `/opensquad runs <name>` or selects "View past runs" from the My squads menu:
+
+1. Confirm the squad exists by checking `squads/<name>/squad.yaml`
+   - If not found → inform the user: "Squad '<name>' not found."
+2. List subdirectories in `squads/<name>/output/` using Bash:
+   ```bash
+   ls -1 squads/<name>/output/ 2>/dev/null
+   ```
+3. For each run folder found, check for a `state.json` inside it:
+   - If present: read `status`, `step.total`, `startedAt`, and `completedAt` fields
+   - Format as a numbered list:
+     ```
+     Past runs for squad '<name>':
+
+     1. 2026-03-18-143022  ✅ completed  (9/9 steps)  Started: 2026-03-18 14:30
+     2. 2026-03-15-091500  ✅ completed  (9/9 steps)  Started: 2026-03-15 09:15
+     ```
+4. If no runs exist yet → inform the user: "No past runs found. Run the squad with `/opensquad run <name>`."
+
 ## Output Rules
 
 - Always save generated content to the squad's output directory: `squads/<name>/output/`
@@ -175,8 +233,10 @@ SQUADS
   /opensquad create           Create a new squad
   /opensquad list             List all your squads
   /opensquad run <name>       Run a squad's pipeline
+  /opensquad runs <name>      View past pipeline runs for a squad
   /opensquad edit <name>      Modify an existing squad
   /opensquad delete <name>    Delete a squad
+  /opensquad dashboard <name> Generate the Virtual Office dashboard
 
 SKILLS
   /opensquad skills           Browse installed skills
@@ -195,6 +255,8 @@ EXAMPLES
   /opensquad create "Instagram carousel content production squad"
   /opensquad create "Weekly data analysis squad for Google Sheets"
   /opensquad run my-squad
+  /opensquad runs my-squad
+  /opensquad dashboard my-squad
 
 💡 Tip: You can also describe what you need in plain language!
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
