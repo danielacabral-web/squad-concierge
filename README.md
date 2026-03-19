@@ -1,119 +1,70 @@
-# Opensquad
+# Skills Stark — Claude Code Plugin
 
-Crie squads de agentes de IA que trabalham juntos — direto do seu IDE.
+Skills da metodologia Stark para produção de agenda editorial e copy para médicos no Instagram.
 
-## Como Usar
+## Skills disponíveis
 
-Abra esta pasta no seu IDE e digite:
+| Skill | Descrição |
+|-------|-----------|
+| `orquestrador` | Coordena o fluxo completo: métricas → padrões → agenda → copys → ClickUp |
+| `metricas` | Analisa métricas do Instagram e Meta para identificar formatos vencedores |
+| `padroes` | Identifica padrões recorrentes nos posts validados do cliente |
+| `agenda` | Monta a grade editorial estratégica com distribuição 40/30/20/5/5 |
+| `copys` | Escreve as copys completas de cada post da agenda |
+| `copy-senior` | Copywriter sênior com base em 70+ livros — para qualquer formato de copy |
+| `clickup` | Cria uma tarefa por post no ClickUp com copy, briefing e orientação de design |
 
-```
-/opensquad
-```
+## Instalação
 
-Isso abre o menu principal. De lá você pode criar squads, executá-los e mais.
-
-Você também pode ser direto — descreva o que quer em linguagem natural:
-
-```
-/opensquad crie um squad para escrever posts no LinkedIn sobre IA
-/opensquad execute o squad meu-squad
-```
-
-## Criar um Squad
-
-Digite `/opensquad` e escolha "Criar squad" no menu, ou seja direto:
-
-```
-/opensquad crie um squad para [o que você precisa]
-```
-
-O Arquiteto fará algumas perguntas, projetará o squad e configurará tudo automaticamente.
-
-## Executar um Squad
-
-Digite `/opensquad` e escolha "Executar squad" no menu, ou seja direto:
-
-```
-/opensquad execute o squad <nome-do-squad>
-```
-
-O squad executa automaticamente, pausando apenas nos checkpoints de decisão.
-
-## Escritório Virtual
-
-O Escritório Virtual é uma interface visual 2D que mostra seus agentes trabalhando em tempo real.
-
-**Passo 1 — Gere o dashboard** (no seu IDE):
-
-```
-/opensquad dashboard
-```
-
-**Passo 2 — Sirva localmente** (no terminal):
+### Opção 1 — Script automático (recomendado)
 
 ```bash
-npx serve squads/<nome-do-squad>/dashboard
+# Clone o repositório
+git clone https://github.com/danielacabral-web/skills-stark-copy.git
+
+# Execute o script de instalação
+cd skills-stark-copy
+bash install.sh
 ```
 
-**Passo 3 —** Abra `http://localhost:3000` no seu navegador.
+### Opção 2 — Manual
 
----
+Copie os arquivos `.md` para a pasta de skills do Claude Code:
 
-# Opensquad (English)
-
-Create AI squads that work together — right from your IDE.
-
-## How to Use
-
-Open this folder in your IDE and type:
-
-```
-/opensquad
+**macOS/Linux:**
+```bash
+cp *.md ~/.claude/skills/
 ```
 
-This opens the main menu. From there you can create squads, run them, and more.
-
-You can also be direct — describe what you want in plain language:
-
-```
-/opensquad create a squad for writing LinkedIn posts about AI
-/opensquad run my-squad
+**Windows (PowerShell):**
+```powershell
+Copy-Item *.md "$env:USERPROFILE\.claude\skills\"
 ```
 
-## Create a Squad
+## Como usar
 
-Type `/opensquad` and choose "Create squad" from the menu, or be direct:
+Após instalar, as skills são acionadas automaticamente pelo Claude Code quando você descrever a tarefa. Exemplos:
 
-```
-/opensquad create a squad for [what you need]
-```
+- `"preciso da agenda do cliente Dr. João para abril"` → aciona o **orquestrador**
+- `"analisa as métricas desse mês"` → aciona **metricas**
+- `"monta a agenda editorial"` → aciona **agenda**
+- `"escreve as copys da agenda"` → aciona **copys**
+- `"cria uma página de vendas"` → aciona **copy-senior**
 
-The Architect will ask a few questions, design the squad, and set everything up automatically.
-
-## Run a Squad
-
-Type `/opensquad` and choose "Run squad" from the menu, or be direct:
+## Fluxo completo (orquestrador)
 
 ```
-/opensquad run the <squad-name> squad
+ETAPA 1 → metricas   (análise de performance)
+ETAPA 2 → padroes    (mapeamento de padrões validados)
+ETAPA 3 → agenda     (grade editorial estratégica)  ← ponto de validação
+ETAPA 4 → copys      (escrita das copys)
+ETAPA 5 → clickup    (estrutura operacional)
 ```
 
-The squad runs automatically, pausing only at decision checkpoints.
-
-## Virtual Office
-
-The Virtual Office is a 2D visual interface that shows your agents working in real time.
-
-**Step 1 — Generate the dashboard** (in your IDE):
-
-```
-/opensquad dashboard
-```
-
-**Step 2 — Serve it locally** (in terminal):
+## Atualização
 
 ```bash
-npx serve squads/<squad-name>/dashboard
+cd skills-stark-copy
+git pull
+bash install.sh
 ```
-
-**Step 3 —** Open `http://localhost:3000` in your browser.
