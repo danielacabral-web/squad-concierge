@@ -22,8 +22,6 @@ npm-debug.log*
 .DS_Store
 Thumbs.db
 
-# Squad output (generated content — not versioned)
-squads/*/output/
 
 # Squad run state
 squads/*/state.json
