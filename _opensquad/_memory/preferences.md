@@ -1,6 +1,6 @@
 # Opensquad Preferences
 
-- **User Name:** Daniela
+- **User Name:** Dani
 - **Output Language:** Português (Brasil)
-- **IDEs:** vscode-copilot
+- **IDEs:** antigravity, claude-code
 - **Date Format:** YYYY-MM-DD

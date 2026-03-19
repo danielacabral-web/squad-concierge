@@ -1,0 +1,7 @@
+id,name,title,icon,path,execution
+olga-oferta,Olga Oferta,Estrategista de Oferta,📋,./agents/olga-oferta.agent.md,inline
+paulo-palco,Paulo Palco,Roteirista de Pitch,🎤,./agents/paulo-palco.agent.md,subagent
+lara-landing,Lara Landing,Copywriter de Landing Page,🌐,./agents/lara-landing.agent.md,subagent
+victor-vsl,Victor VSL,Roteirista de VSL,🎬,./agents/victor-vsl.agent.md,subagent
+artur-anuncio,Artur Anúncio,Criador de Roteiros de Anúncio,📺,./agents/artur-anuncio.agent.md,subagent
+renata-revisao,Renata Revisão,Revisora de Qualidade,✅,./agents/renata-revisao.agent.md,inline

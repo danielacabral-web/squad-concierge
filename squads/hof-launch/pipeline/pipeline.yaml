@@ -1,0 +1,70 @@
+pipeline:
+  id: hof-launch-pipeline
+  name: "Pipeline de Produção HOF 2026"
+  squad: hof-launch
+
+  steps:
+    - id: step-01-phase-selection
+      file: pipeline/steps/step-01-phase-selection.md
+      type: checkpoint
+      outputFile: squads/hof-launch/pipeline/data/content-selection.md
+
+    - id: step-02-eva-editorial
+      file: pipeline/steps/step-02-eva-editorial.md
+      agent: eva-editorial
+      execution: inline
+      inputFile: squads/hof-launch/pipeline/data/content-selection.md
+      outputFile: squads/hof-launch/pipeline/data/production-brief.md
+
+    - id: step-03-approve-brief
+      file: pipeline/steps/step-03-approve-brief.md
+      type: checkpoint
+
+    - id: step-04a-iago-instagram
+      file: pipeline/steps/step-04a-iago-instagram.md
+      agent: iago-instagram
+      execution: subagent
+      model_tier: powerful
+      parallel_group: creators
+      format: instagram-feed
+      inputFile: squads/hof-launch/pipeline/data/production-brief.md
+      outputFile: squads/hof-launch/output/instagram-carousel.md
+
+    - id: step-04b-rita-reels
+      file: pipeline/steps/step-04b-rita-reels.md
+      agent: rita-reels
+      execution: subagent
+      model_tier: powerful
+      parallel_group: creators
+      format: instagram-reels
+      inputFile: squads/hof-launch/pipeline/data/production-brief.md
+      outputFile: squads/hof-launch/output/reels-and-stories.md
+
+    - id: step-04c-leo-linkedin
+      file: pipeline/steps/step-04c-leo-linkedin.md
+      agent: leo-linkedin
+      execution: subagent
+      model_tier: powerful
+      parallel_group: creators
+      format: linkedin-post
+      inputFile: squads/hof-launch/pipeline/data/production-brief.md
+      outputFile: squads/hof-launch/output/linkedin-post.md
+
+    - id: step-05-vera-veredito
+      file: pipeline/steps/step-05-vera-veredito.md
+      agent: vera-veredito
+      execution: inline
+      inputFile: squads/hof-launch/output/
+      outputFile: squads/hof-launch/output/review-report.md
+
+    - id: step-06-final-approval
+      file: pipeline/steps/step-06-final-approval.md
+      type: checkpoint
+
+  checkpoints:
+    - step-01-phase-selection
+    - step-03-approve-brief
+    - step-06-final-approval
+
+  on_reject:
+    step-06-final-approval: step-04a-iago-instagram

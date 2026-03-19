@@ -1,66 +1,6 @@
-# squad-concierge
+# Opensquad
 
-Squad de agentes de IA que analisa as métricas via API do Reportei, cria o calendário editorial, escreve as copys, faz os designs e programa os 3 posts semanais no Instagram [@concierge.ia](https://www.instagram.com/concierge.ia/).
-
-## Agentes
-
-| Agente | Papel |
-|--------|-------|
-| 📊 **Ana Analítica** | Analisa métricas do Reportei e pesquisa tendências da semana |
-| 🗓️ **Estela Estratégica** | Cria o calendário editorial com os 3 posts e briefings completos |
-| ✍️ **Clara Criativa** | Escreve as copys, captions e hashtags de cada post |
-| 🎨 **Diana Design** | Cria os designs dos slides em HTML/CSS e renderiza as imagens |
-| 📱 **Paula Publicadora** | Publica os 3 posts aprovados no Instagram @concierge.ia |
-
-## Como Executar
-
-Abra esta pasta no VS Code e ative o Copilot Chat:
-
-```
-/opensquad rode o squad posts-concierge
-```
-
-O squad executa automaticamente e pausa nos 4 checkpoints de aprovação:
-1. ✅ Aprovação do relatório de métricas
-2. ✅ Aprovação do calendário editorial
-3. ✅ Aprovação das copys
-4. ✅ Aprovação dos designs
-
-## Configuração Inicial
-
-Antes de rodar pela primeira vez, configure as credenciais do Instagram:
-
-```bash
-cp .env.example .env
-# Edite .env e preencha os valores:
-# IMGBB_API_KEY, INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_USER_ID
-```
-
-Consulte `skills/instagram-publisher/SKILL.md` para instruções detalhadas.
-
-## Estrutura
-
-```
-squads/posts-concierge/
-├── squad.yaml                    # Definição do squad
-├── squad-party.csv               # Agentes e suas roles
-├── agents/                       # Definições dos 5 agentes
-│   ├── pesquisadora.agent.md
-│   ├── estrategista.agent.md
-│   ├── redatora.agent.md
-│   ├── designer.agent.md
-│   └── publicadora.agent.md
-├── pipeline/
-│   ├── pipeline.yaml             # Definição do pipeline
-│   ├── steps/                    # 9 steps (5 agentes + 4 checkpoints)
-│   └── data/
-│       └── tone-of-voice.md      # 6 tons de voz disponíveis
-└── output/                       # Conteúdo gerado (gitignored)
-```
-
----
-
-
+Crie squads de agentes de IA que trabalham juntos — direto do seu IDE.
 
 ## Como Usar
 

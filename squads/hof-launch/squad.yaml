@@ -1,0 +1,26 @@
+squad:
+  id: hof-launch
+  name: "Squad HOF 2026 — Lançamento Concierge"
+  description: "Produz conteúdo de campanha para o lançamento da ConciergeOS no HOF Stark 2026, targeting clínicas de estética e harmonização facial."
+  icon: 🎩
+  version: "1.0.0"
+  created: "2026-03-19"
+  mode: alta-performance
+
+skills:
+  - web_search
+  - web_fetch
+
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+  - pipeline/data/tone-of-voice.md
+
+pipeline:
+  entry: pipeline/pipeline.yaml
+
+on_reject:
+  step-06-final-approval: step-04a-iago-instagram

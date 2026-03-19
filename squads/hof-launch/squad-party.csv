@@ -1,0 +1,6 @@
+id,name,title,icon,path,execution
+eva-editorial,Eva Editorial,Estrategista de Campanha,📋,./agents/eva-editorial.agent.md,inline
+iago-instagram,Iago Instagram,Criador Feed & Carrossel,📱,./agents/iago-instagram.agent.md,subagent
+rita-reels,Rita Reels,Criadora Reels & Stories,🎬,./agents/rita-reels.agent.md,subagent
+leo-linkedin,Leo LinkedIn,Criador LinkedIn,💼,./agents/leo-linkedin.agent.md,subagent
+vera-veredito,Vera Veredito,Revisora de Qualidade,✅,./agents/vera-veredito.agent.md,inline

@@ -1,0 +1,26 @@
+squad:
+  id: hof-full-launch
+  name: "Squad HOF 2026 — Materiais de Venda"
+  description: "Produz os materiais completos de venda para o congresso HOF Stark 2026: pitch de 50min para Lucas, landing page, VSL e roteiros de anúncio. Usa o briefing de lançamento já existente como base."
+  icon: 🎩
+  version: "1.0.0"
+  created: "2026-03-19"
+  mode: alta-performance
+
+skills:
+  - web_search
+  - web_fetch
+
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/offer-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+  - pipeline/data/tone-of-voice.md
+
+pipeline:
+  entry: pipeline/pipeline.yaml
+
+on_reject:
+  step-07-final-approval: step-04a-paulo-palco

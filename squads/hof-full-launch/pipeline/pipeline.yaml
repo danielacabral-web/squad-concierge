@@ -1,0 +1,78 @@
+pipeline:
+  id: hof-full-launch-pipeline
+  name: "Pipeline de Materiais de Venda HOF 2026"
+  squad: hof-full-launch
+
+  steps:
+    - id: step-01-select-materials
+      file: pipeline/steps/step-01-select-materials.md
+      type: checkpoint
+
+    - id: step-02-olga-oferta
+      file: pipeline/steps/step-02-olga-oferta.md
+      agent: olga-oferta
+      execution: inline
+      outputFile: squads/hof-full-launch/pipeline/data/master-brief.md
+
+    - id: step-03-approve-brief
+      file: pipeline/steps/step-03-approve-brief.md
+      type: checkpoint
+
+    - id: step-04a-paulo-palco
+      file: pipeline/steps/step-04a-paulo-palco.md
+      agent: paulo-palco
+      execution: subagent
+      model_tier: powerful
+      parallel_group: creators
+      inputFile: squads/hof-full-launch/pipeline/data/master-brief.md
+      outputFile: squads/hof-full-launch/output/pitch-script.md
+
+    - id: step-04b-lara-landing
+      file: pipeline/steps/step-04b-lara-landing.md
+      agent: lara-landing
+      execution: subagent
+      model_tier: powerful
+      parallel_group: creators
+      inputFile: squads/hof-full-launch/pipeline/data/master-brief.md
+      outputFile: squads/hof-full-launch/output/landing-page.md
+
+    - id: step-04c-victor-vsl
+      file: pipeline/steps/step-04c-victor-vsl.md
+      agent: victor-vsl
+      execution: subagent
+      model_tier: powerful
+      parallel_group: creators
+      inputFile: squads/hof-full-launch/pipeline/data/master-brief.md
+      outputFile: squads/hof-full-launch/output/vsl-script.md
+
+    - id: step-04d-artur-anuncio
+      file: pipeline/steps/step-04d-artur-anuncio.md
+      agent: artur-anuncio
+      execution: subagent
+      model_tier: powerful
+      parallel_group: creators
+      inputFile: squads/hof-full-launch/pipeline/data/master-brief.md
+      outputFile: squads/hof-full-launch/output/ad-scripts.md
+
+    - id: step-05-content-approval
+      file: pipeline/steps/step-05-content-approval.md
+      type: checkpoint
+
+    - id: step-06-renata-revisao
+      file: pipeline/steps/step-06-renata-revisao.md
+      agent: renata-revisao
+      execution: inline
+      outputFile: squads/hof-full-launch/output/review-report.md
+
+    - id: step-07-final-approval
+      file: pipeline/steps/step-07-final-approval.md
+      type: checkpoint
+
+  checkpoints:
+    - step-01-select-materials
+    - step-03-approve-brief
+    - step-05-content-approval
+    - step-07-final-approval
+
+  on_reject:
+    step-07-final-approval: step-04a-paulo-palco
