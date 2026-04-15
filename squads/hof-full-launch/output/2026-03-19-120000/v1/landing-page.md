@@ -1,168 +1,259 @@
-# Landing Page — ConciergeOS | HOF Stark 2026
+# Landing Page — Concierge.OS | HOF Stark 2026
+
+> Estrutura em 7 dobras alinhada ao DNA de comunicação aprovado em 15/04/2026.
+> Todos os CTAs são **"Agendar uma DEMO"** e devem apontar para Calendly ou WhatsApp.
 
 ---
 
-## [HERO]
+## [PRIMEIRA DOBRA — O QUE É E COMO]
+
+### [Nome do Produto]
+**Concierge.OS**
+
+### [Posicionamento]
+Tráfego por IA + Atendimento por IA + CRM
 
 ### [Headline]
-30% mais pacientes na cadeira em 30 dias — automaticamente.
+30% mais pacientes na cadeira, automaticamente.
 
 ### [Sub-headline]
-18 agentes de IA respondem seus leads em 30 segundos, 24 horas por dia, 7 dias por semana. Sem contratar mais ninguém.
+18 agentes de IA que atendem, qualificam, perseguem o lead, agendam 24/7 e otimizam o tráfego por consulta agendada — tudo conectado ao CRM.
 
-**[CTA 1: Quero ver como funciona → falar com especialista]**
+**[CTA 1: Agendar uma DEMO]**
 
----
+### [Selos de autoridade — abaixo do hero]
+- **Logo Stark** — Criada pelo maior Hub de soluções para clínicas da América Latina
+- **Logo Meta** — API Oficial Meta
 
-## [PROBLEMA]
-
-### Sua clínica investe em tráfego. Mas os leads somem antes de sentar na cadeira.
-
-Você criou campanhas, contratou gestor de tráfego, configurou formulários. O lead chega. E então — ninguém responde em tempo hábil.
-
-A pesquisa é clara: dados do Harvard Business Review mostram que leads não contactados nos primeiros 5 minutos têm 400% menos probabilidade de converter em consulta. Quatro vezes menos. Por cada hora que passa sem resposta, a chance de aquele lead marcar uma consulta despenca.
-
-O problema não é o tráfego. O problema é o que acontece depois do clique.
-
-Sua equipe está ocupada atendendo quem já está na clínica. O WhatsApp acumula mensagens. Ligações caem na caixa postal. O lead que pesquisou botox, preenchimento labial ou harmonização orofacial já agendou na clínica concorrente — que respondeu primeiro.
-
-Existe um gargalo entre o clique e a cadeira. E ele está custando a você dezenas de consultas por mês.
-
-**O ConciergeOS foi construído para fechar esse gargalo — completamente.**
+### [Faixa de transição — antes da segunda dobra]
+*Inserir ícones das IAs (os 18 agentes) em sequência, como no mockup de referência.*
 
 ---
 
-## [MECANISMO]
+## [SEGUNDA DOBRA — PARA QUEM É]
 
-### 18 agentes em pipeline. Do clique ao agendamento confirmado — em menos de 30 segundos.
+### [Pergunta de identificação]
+> *"Já invisto em tráfego, como posso aumentar a minha taxa de conversão?"*
 
-O ConciergeOS não é um único programa. É um pipeline com 18 agentes de IA trabalhando em sequência, cada um com uma função específica na jornada do paciente. Pense como uma equipe altamente especializada que nunca dorme, nunca está em atendimento e nunca deixa uma mensagem sem resposta.
+### [Prova social em vídeo]
+*Bloco de depoimentos em vídeo — a curar com Cecília (pedido do Breno).*
 
-Veja como o pipeline funciona, do início ao fim:
+### [Promessa de fechamento]
+**Tudo o que você precisa para tapar o buraco no seu funil e dobrar o seu faturamento em 60 dias.**
 
-**Etapa 1 — Triagem Imediata**
-Assim que o lead preenche o formulário ou envia mensagem via anúncio, o primeiro agente identifica o procedimento de interesse — botox, bioestimuladores, preenchimento, harmonização orofacial, fios de PDO — e classifica o perfil do paciente.
+Veja com seus próprios olhos — agende uma demonstração.
 
-**Etapa 2 — Qualificação Clínica**
-Um segundo agente conduz uma conversa estruturada para entender expectativas, histórico relevante e disponibilidade de agenda. O lead recebe atenção personalizada. Você recebe um paciente pré-qualificado.
-
-**Etapa 3 — Proposta de Agenda**
-Com base na disponibilidade real da sua clínica, o sistema oferece os horários disponíveis e guia o lead até a confirmação — sem que nenhum membro da sua equipe precise intervir.
-
-**Etapa 4 — Confirmação e Redução de No-Show**
-Agentes dedicados enviam confirmações programadas, lembretes e instruções pré-procedimento. O índice de faltas cai.
-
-**Etapa 5 — Follow-up Inteligente**
-Leads que não agendaram na primeira interação entram em um fluxo de reativação estruturado. Nenhum interesse fica para trás.
-
-Tudo isso acontece em menos de 30 segundos após o primeiro contato, 24 horas por dia, 7 dias por semana.
-
-O ConciergeOS opera em três camadas integradas:
-
-- **Motor de Tráfego IA:** conecta diretamente às suas campanhas, capturando cada lead no momento em que ele demonstra intenção.
-- **Concierge IA:** o pipeline de 18 agentes que converte leads em consultas agendadas e confirmadas.
-- **Onboarding Personalizado (7 dias):** configuração completa do sistema para a realidade da sua clínica — seus procedimentos, sua agenda, seu protocolo de atendimento.
+**[CTA 2: Agendar uma DEMO]**
 
 ---
 
-## [PROVA]
+## [TERCEIRA DOBRA — MECANISMO]
 
-### Clínicas que implementaram o pipeline já colhem os números.
+### [Headline]
+Você nunca viu nada igual.
 
-A Clínica Aurum, especializada em harmonização facial e procedimentos com bioestimuladores, implementou o ConciergeOS em fevereiro de 2026. No primeiro mês completo de operação, registrou aumento de 34% no volume de consultas realizadas — sem ampliar a equipe de atendimento e sem aumentar o investimento em tráfego.
+### [Descrição]
+Um **enxame de 18 agentes personalizados** para a sua clínica que vão perseguir o seu lead desde o primeiro contato até o agendamento confirmado — em menos de 30 segundos, 24 horas por dia.
 
-> "Antes do ConciergeOS, eu tinha campanhas funcionando e leads chegando — mas minha recepcionista não conseguia responder todos a tempo. A gente perdia paciente sem nem saber. No primeiro mês com o sistema, minha agenda encheu de um jeito que eu nunca tinha visto. O pipeline faz o que eu precisaria de três pessoas para fazer, em 30 segundos."
->
-> — **Dra. Fernanda Alves**, Médica especialista em harmonização facial, Clínica Aurum
+*Mockup do pipeline imitando a tela do computador — exibir a esteira dos 18 agentes em operação.*
 
-O dado do Harvard Business Review não é uma curiosidade acadêmica — é a explicação exata do que acontecia com os leads da Dra. Fernanda antes do ConciergeOS: 400% menos conversão para cada lead que espera mais de 5 minutos por uma resposta.
+### [Valor-chave]
+**Pipeline de vendas organizada para você visualizar cada centavo investido em tráfego pago.**
+Tudo o que você precisa para tapar o buraco do funil e nunca mais perder leads vindos do tráfego.
 
-O sistema fecha exatamente essa janela.
-
----
-
-## [OFERTA]
-
-### O que está incluído no ConciergeOS
-
-O ConciergeOS é entregue em três componentes que operam de forma integrada. Nenhum deles funciona de forma isolada — e é exatamente por isso que o resultado é consistente.
-
-**Componente 1 — Motor de Tráfego IA**
-Integração direta com suas campanhas de tráfego pago (Meta Ads, Google Ads). Cada lead gerado entra automaticamente no pipeline — sem formulários manuais, sem planilhas, sem risco de perda de contato. O sistema captura o lead no momento de maior intenção e inicia o atendimento em menos de 30 segundos.
-
-**Componente 2 — Concierge IA (18 Agentes em Pipeline)**
-O núcleo do ConciergeOS. Os 18 agentes operam em sequência — triagem, qualificação, proposta de agenda, confirmação e follow-up — conduzindo o lead desde o primeiro contato até a consulta confirmada na sua cadeira. Funciona 24 horas por dia, 7 dias por semana, sem interrupção.
-
-**Componente 3 — Onboarding Personalizado (7 Dias)**
-Nos primeiros 7 dias após a contratação, a equipe Stark configura o sistema para a realidade da sua clínica: seus procedimentos (botox, preenchimento, harmonização orofacial, bioestimuladores, fios de PDO), sua agenda, seu tom de comunicação e suas integrações existentes. Você não precisa adaptar sua clínica ao sistema — o sistema é adaptado à sua clínica.
+**[CTA 3: Agendar uma DEMO]**
 
 ---
 
-## [GARANTIA]
+## [QUARTA DOBRA — BENEFÍCIOS COMPLETOS]
 
-### 30% mais pacientes na cadeira em 30 dias — automaticamente. Garantimos.
+### Bloco 4.1 — Integração com STARK CRM
+*Mockup da tela da Concierge imitando a tela do computador.*
 
-Podemos garantir porque somos o único sistema que fecha as duas variáveis ao mesmo tempo: a velocidade de resposta ao lead e a qualidade da qualificação até o agendamento.
-
-A maioria das soluções resolve apenas um lado. Ou responde rápido, mas sem inteligência. Ou qualifica bem, mas tarde demais. O ConciergeOS controla as duas pontas do processo — e por isso o resultado é previsível.
-
-Se em 30 dias de operação completa o volume de consultas realizadas na sua clínica não crescer pelo menos 30% em relação à média dos 30 dias anteriores, devolvemos o valor integral — sem burocracia, sem cláusulas de escape, sem negociação.
-
-Não usamos o condicional "se não funcionar" porque partimos da premissa de que funciona. Os 18 agentes respondem em menos de 30 segundos. O pipeline qualifica e agenda. A cadeira enche. Isso é o que o sistema faz.
-
-**[CTA 2: Começar com os 30% automáticos → ver condições]**
+- Movimenta cards automaticamente
+- Resume as conversas
+- Transfere para o vendedor e dispara alerta para atendimento humanizado
+- Agendamento de reuniões e consultas automático
 
 ---
 
-## [FAQ]
+### Bloco 4.2 — Dashboard de Acompanhamento
+*Mockup da tela da Concierge imitando a tela do computador.*
 
-**O ConciergeOS funciona para estética e harmonização facial?**
-
-Sim — e foi construído para atender as duas especialidades com a mesma profundidade. Durante o onboarding de 7 dias, o sistema é configurado com os procedimentos específicos da sua clínica: botox, preenchimento labial, harmonização orofacial, bioestimuladores, fios de PDO, entre outros. Os agentes de triagem e qualificação são treinados para identificar o procedimento de interesse do lead, fazer as perguntas certas para cada perfil de paciente e conduzir a conversa de forma coerente com o vocabulário clínico da sua especialidade. Clínicas de estética facial e de harmonização operam com jornadas de paciente distintas — o ConciergeOS adapta o pipeline para cada uma delas.
-
----
-
-**Quanto tempo leva para o sistema estar funcionando na minha clínica?**
-
-O ConciergeOS entra em operação completa em 7 dias. Esse é o período de onboarding personalizado, no qual a equipe Stark realiza a configuração integral: integração com suas campanhas de tráfego, parametrização dos procedimentos, ajuste do tom de comunicação e testes de fluxo completo. No oitavo dia, o pipeline já está ativo — respondendo leads em menos de 30 segundos, qualificando, agendando e confirmando consultas. Não há fase de "aprendizado" prolongada nem período de instabilidade. A configuração é feita antes do sistema ir ao ar.
-
----
-
-**Minha equipe precisará de treinamento?**
-
-Não. O ConciergeOS opera de forma independente da sua equipe de atendimento — ele não substitui quem já está na clínica, mas assume a camada de primeiro contato, qualificação e agendamento de forma autônoma. Sua recepcionista ou secretária continua responsável pelo atendimento presencial e pela gestão da agenda — o sistema entrega o paciente já qualificado e com consulta confirmada. O único envolvimento da sua equipe durante o onboarding é fornecer as informações sobre a agenda e os procedimentos oferecidos. A partir daí, o pipeline trabalha sem intervenção manual.
+- Total de leads
+- Mensagens respondidas
+- Até 8 follow-ups por lead
+- Consultas agendadas
+- Taxa de conversão
+- Mapeamento de objeções
+- Mapeamento dos interesses
 
 ---
 
-**E se eu já tiver CRM? Funciona integrado?**
+### Bloco 4.3 — Atendimento I.A. 24h no WhatsApp
+*Mockup da tela da Concierge imitando a tela do computador.*
 
-Sim. O ConciergeOS é compatível com os principais CRMs utilizados por clínicas de harmonização facial e realiza a integração durante o período de onboarding. Os dados de cada lead — procedimento de interesse, histórico de interações, status de agendamento — são enviados diretamente para o seu CRM existente, sem duplicação de registros nem necessidade de migração. Se o seu CRM atual tiver uma API aberta ou webhooks disponíveis, a integração é direta. Caso seja um sistema mais restrito, a equipe de onboarding avalia as alternativas disponíveis antes da ativação. Você mantém a gestão centralizada que já tem — com o pipeline do ConciergeOS alimentando o funil automaticamente.
-
----
-
-**O resultado dos 30% é automático — como funciona na prática?**
-
-O aumento de 30% no volume de consultas realizadas é consequência direta do fechamento de dois gargalos simultâneos. Primeiro: o tempo de resposta ao lead cai para menos de 30 segundos — eliminando a janela de 5 minutos que, segundo o Harvard Business Review, reduz a conversão em 400%. Segundo: o pipeline de 18 agentes conduz cada lead por todas as etapas — triagem, qualificação, proposta de agenda, confirmação e follow-up — sem abandono no meio do caminho. Na prática, isso significa que leads que hoje estão sendo perdidos por demora na resposta ou por falta de follow-up passam a ser convertidos em consultas agendadas e confirmadas. O crescimento não vem de mais investimento em tráfego — vem do aproveitamento dos leads que você já está gerando e que hoje saem sem agendar. O sistema não promete um número arbitrário: os 30% refletem a taxa de recuperação observada em clínicas com perfil de operação similar ao seu, com pipeline de tráfego ativo e capacidade de agenda disponível.
-
----
-
-## [CTA FINAL]
-
-### As vagas com condição HOF para abril de 2026 são limitadas.
-
-A condição especial negociada durante o HOF Stark 2026 está disponível apenas para clínicas que ativarem o onboarding até o final de abril. Depois disso, o ConciergeOS segue disponível — mas sem as condições de entrada aplicadas aos participantes do HOF.
-
-Abril começa agora. Cada semana sem o pipeline é mais uma semana entregando leads para quem responde em 30 segundos.
-
-Se a sua clínica gera leads e tem capacidade de agenda, o ConciergeOS vai preencher essa agenda — automaticamente, com garantia de resultado, em 30 dias.
-
-**[CTA 3: Garantir minha vaga com condição HOF → falar com especialista]**
+- Identifica e quebra objeções
+- Entende áudio e imagem
+- Recuperação de contatos automática
+- Identifica o produto/serviço de interesse
+- Integra com Google Agenda
+- **API Oficial Meta inclusa** (coexistência com WhatsApp Web)
+- **Retroalimenta campanhas de tráfego pago com dados de qualidade** (integração inclusa)
 
 ---
 
-## [FOOTER]
+### Bloco 4.4 — Suporte de Alto Padrão
 
-**ConciergeOS** — um produto Stark IA
+- Grupo de WhatsApp com suporte por consultor comercial durante todo o projeto
+- Implementação guiada para configuração
+- Treinamentos comerciais para a sua equipe
+
+**[CTA 4: Agendar uma DEMO]**
+
+---
+
+## [QUINTA DOBRA — COMPARATIVO E PLANOS]
+
+### [Provocação de abertura]
+**E se você precisasse contratar 18 secretárias para aumentar a sua conversão?**
+
+Faz a conta: 1 secretária CLT custa em média **R$ 60.000 por ano**…
+
+### [Tabela comparativa]
+
+| Secretária CLT | Concierge.IA |
+|----------------|--------------|
+| Custa R$ 60.000 por ano | Fração do custo, sem encargos |
+| Trabalha 8h por dia | Trabalha 24h por dia |
+| 1 conversa por vez | Atende dezenas simultaneamente |
+| Esquece de agendar, ou agenda errado | Agendamento automático |
+| Responde quando dá | Responde instantaneamente |
+| Férias, 13º, encargos | Zero encargos |
+| Pode esquecer follow-up | Follow-up automático (até 8x) |
+| Pode perder lead | Nunca deixa mensagem sem resposta |
+| Não integra CRM | Integra com STARK CRM automaticamente |
+| Não gera relatório estratégico | Relatórios completos de leads, conversões, objeções e interesses |
+| Limite humano | Escala ilimitada |
+| Não retroalimenta tráfego | Qualifica e envia dados para as campanhas |
+| Precisa de treinamento sempre que aparece nova funcionalidade | Aprende automaticamente |
+| Fica doente, tira férias, pede aumento | Nunca falta, nunca atrasa, nunca pede reajuste |
+
+### [Visão de futuro]
+Agora, imagine acordar amanhã com **18 agendamentos confirmados**, sinal pago, zero mensagens sem resposta e um relatório mostrando de onde veio cada paciente.
+
+Sua equipe chega e encontra apenas oportunidades reais na fila. Sem curiosos, sem perguntas genéricas, sem retrabalho.
+
+Sua clínica deixa de ser uma operação caótica e vira uma **máquina previsível de vendas**.
+
+Esse é o futuro que a Concierge.IA entrega — **em até 15 dias**.
+
+---
+
+### [Planos]
+
+#### Plano Essencial
+
+- Concierge.IA ativa no WhatsApp da clínica
+- API Oficial Meta
+- Atendimento, qualificação e agendamento automático 24/7
+- Integração com STARK CRM
+- Relatório semanal de leads e conversões
+- Possibilidade de integração com redes sociais
+- Suporte técnico por e-mail
+
+**A partir de R$ XXX/mês**
+
+**[CTA 5: Agendar uma DEMO]**
+
+---
+
+#### Plano Profissional — MAIS ESCOLHIDO
+
+- Tudo do Plano Essencial
+- Suporte prioritário via WhatsApp em horário comercial
+
+**A partir de R$ XXX/mês**
+
+**[CTA 6: Agendar uma DEMO]**
+
+---
+
+## [SEXTA DOBRA — GARANTIA]
+
+### [Headline]
+Tem garantia?
+
+### [Vídeo de garantia]
+*Inserir vídeo com Lucas Tarallo explicando a cláusula contratual de dobrar a conversão em 30 dias.*
+
+### [Promessa]
+**Se você já investe em tráfego, você pode dobrar a sua taxa de conversão em apenas 30 dias.**
+
+Veja com os seus próprios olhos o que o enxame de 18 agentes personalizados é capaz de fazer.
+
+Não usamos "se funcionar" — partimos da premissa de que funciona. O Concierge.OS controla tráfego, atendimento e CRM ao mesmo tempo. Quando as três pontas do funil estão sob o mesmo sistema, o resultado é previsível. O risco é nosso: se em 30 dias a sua taxa de conversão não dobrar, devolvemos o valor integral.
+
+**[CTA 7: Agendar uma DEMO]**
+
+---
+
+## [SÉTIMA DOBRA — FAQ]
+
+**A Concierge.IA substitui a minha secretária?**
+Não. Ela potencializa sua equipe. A IA faz o primeiro atendimento, qualifica o lead, responde dúvidas básicas e só envia para sua equipe quando o paciente demonstra real interesse. Assim, sua secretária atua com foco em conversões, e não em triagens.
+
+---
+
+**E se o paciente quiser falar com uma pessoa?**
+A IA entende o momento certo de transferir. Ela encaminha o contato humanamente, com contexto e histórico da conversa, para que o atendimento siga de forma fluida e natural.
+
+---
+
+**Isso é um chatbot igual aos outros?**
+Não. A Concierge.IA é uma inteligência especializada em clínicas médicas, que entende linguagem natural, voz, imagem e fluxo de atendimento estratégico — não é um robô de respostas genéricas.
+
+---
+
+**Funciona só no WhatsApp?**
+O WhatsApp é onde os pacientes estão. E com a Concierge.IA, ele se transforma em uma máquina de captação, qualificação e agendamento — ativa 24 horas por dia. Também existe a possibilidade de responder comentários em redes sociais.
+
+---
+
+**O que está incluso na solução?**
+- Implementação completa da Concierge.IA em 15 dias
+- Integração com o STARK CRM
+- API Oficial Meta
+- Treinamento para seu time comercial
+- Suporte com consultor dedicado por todo o período da contratação
+- Dashboards automatizados com dados em tempo real
+
+---
+
+**Posso testar antes de contratar?**
+Sim. Você pode agendar uma DEMO guiada com um consultor comercial da Stark, ver a Concierge.IA em funcionamento e tirar todas as dúvidas.
+
+---
+
+**Existe como personalizar a linguagem da minha clínica?**
+Claro. A Concierge conta com um enxame de 18 agentes personalizados justamente para que todas as ações sejam criadas de acordo com o seu público.
+
+---
+
+## [RODAPÉ]
+
+### [Mapa do site]
+- **Assista o Vídeo** → direciona para a VSL
+- **Para quem é?** → direciona para a 2ª dobra
+- **Como funciona?** → direciona para a 4ª dobra
+- **Quanto custa?** → direciona para a 5ª dobra
+- **Tenho dúvidas** → direciona para as FAQs
+- **Agendar uma DEMO** → direciona para o Calendly ou WhatsApp
+
+### [Assinatura]
+**Desenvolvido por @StarkHub**
+
+**Concierge.OS** — um produto Stark
 
 contato@starkia.com.br | +55 (11) 99999-0000
 
@@ -170,4 +261,4 @@ CNPJ: 00.000.000/0001-00
 
 [Política de Privacidade] | [Termos de Uso]
 
-© 2026 Stark IA. Todos os direitos reservados.
+© 2026 Stark. Todos os direitos reservados.
